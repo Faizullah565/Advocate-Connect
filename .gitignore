@@ -1,0 +1,14 @@
+# === Root Level ===
+node_modules/
+.env
+.DS_Store
+
+# === Client Side (React) ===
+p4/node_modules/
+p4/build/
+p4/.env
+
+# === Server Side (Node.js) ===
+backend/node_modules/
+backend/.env
+backend/logs/
