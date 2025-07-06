@@ -55,7 +55,7 @@ const handleLawyerProfile = (lawyerId) => {
   useEffect(() => {
     const fetchLawyers = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/lawyers");
+        const res = await axios.get("https://advocate-connect-backend.onrender.com/lawyers");
         setLawyers(res.data)
         const ratedLawyers = res.data;
         // console.log(ratedLawyers)
@@ -76,7 +76,7 @@ const handleLawyerProfile = (lawyerId) => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/users");
+        const res = await axios.get("https://advocate-connect-backend.onrender.com/users");
         setUsers(res.data)
       } catch (err) {
         console.error("Failed to fetch users ", err);
@@ -88,7 +88,7 @@ const handleLawyerProfile = (lawyerId) => {
   useEffect(() => {
     const fetchActiveCases = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/activecases");
+        const res = await axios.get("https://advocate-connect-backend.onrender.com/activecases");
         setCases(res.data)
       } catch (err) {
         console.error("Failed to fetch active cases ", err);

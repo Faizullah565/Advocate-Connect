@@ -72,7 +72,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await axios.post("http://localhost:5000/signup", formData, {
+      const res = await axios.post("https://advocate-connect-backend.onrender.com/signup", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
@@ -99,7 +99,7 @@ const Signup = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/verify-otp", {
+      const res = await fetch("https://advocate-connect-backend.onrender.com/verify-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: form.email, otp }),

@@ -62,7 +62,7 @@ const SignupUser = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/signup-user", {
+      const res = await fetch("https://advocate-connect-backend.onrender.com/signup-user", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
@@ -89,7 +89,7 @@ const SignupUser = () => {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/verify-user-otp", {
+      const res = await fetch("https://advocate-connect-backend.onrender.com/verify-user-otp", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email: form.email, otp }),
