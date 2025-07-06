@@ -1,6 +1,6 @@
-1.
+1. Title
    # Advocate Connect - Legal Services Web App
-3.  Description with keywords
+3. # Description with keywords
   Advocate Connect is a full-stack MERN (MongoDB, Express, React, Node.js) web application for lawyers, legal firms, and clients. This platform allows clients to find lawyers, book consultations, read legal blogs, and communicate with legal experts.
   Features real-time lawyer listings, user authentication, admin panel, and a contact portal.
   Deployed using:
@@ -25,7 +25,7 @@
 - **Storage:** Cloudinary
 - **Email:** Nodemailer
 - **Deployment:** Vercel (Frontend) + Render (Backend)
-5. Screenshots
+5.  Screenshots
 ![service](https://github.com/user-attachments/assets/a9fc2f0c-8b3a-49b2-9efa-a0627c489e1b)
 ![adv home](https://github.com/user-attachments/assets/dd045e1d-ac89-4f71-a99d-005c6e40737d)
 6. Live URLs
